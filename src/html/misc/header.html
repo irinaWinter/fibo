@@ -1,6 +1,6 @@
 <header class="page-header">
   <div class="page-header__container container">
-    <div class="page-header__mobile-menu">
+    <div class="page-header__menu-box">
       <a class="page-header__logo" href="#">
         <img
           class="page-header__logo-img"
@@ -8,7 +8,6 @@
           alt="#"
         />
       </a>
-
       <include src="elements/header-info.html"></include>
 
       <nav class="page-header__nav nav">
@@ -47,10 +46,14 @@
             <a class="nav__link" href="#">Контакты</a>
           </li>
           <li class="nav__item">
-            <a class="nav__link" href="#">Войти</a>
+            <a class="nav__link nav__link--enter" href="#">Войти</a>
           </li>
           <li class="nav__item">
-            <a class="nav__link" href="#">Корзина</a>
+            <a class="nav__cart" href="#"
+              >Корзина
+              <span class="visually-hidden">Количество товаров в корзине</span>
+              <span class="nav__cart-count">1</span>
+            </a>
           </li>
         </ul>
       </nav>
