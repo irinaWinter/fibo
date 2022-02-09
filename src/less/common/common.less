@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  font-family: "Open Sans", "Arial", sans-serif;
+  overflow-x: hidden;
+
+  &.preload * {
+    /* stylelint-disable-next-line declaration-no-important */
+    transition: all 0s linear !important;
+  }
+
+  // color
+  --black: #000000;
+  --white: #ffffff;
+  --accent: #e8c300;
+  --gray: #e5e5e5;
+  --gray-hover: #cfcfcf;
+
+  // font
+  --banny: "Banny", "Open Sans", "Arial", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
